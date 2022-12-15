@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    🐤💻 Your computer playing Flappy Bird!
+    💻🐤 Your computer playing Flappy Bird! 🐤💻
 </h3>
 
 <h4 align="center"> 
@@ -23,7 +23,7 @@
 
 🐤	Flappy Bird - NEAT
 
-This project consists on builiding an flappy bird like game and training a NEAT model for the computer learn how to play the game.
+This project consists on building an flappy bird like game and training a NEAT model for the computer learn how to play the game.
 
 The whole project was written in python (pygame and neat).
 
@@ -41,7 +41,7 @@ This project is divided into two parts:
 
 **The rules**:
 
-On this game the player control the flight of bird, the objective is to travel as far as possible without hitting the pipes that will surge along the way.
+On this game the player controls the flight of bird, the objective is to travel as far as possible without hitting the pipes that will surge along the way.
 
 The further the bird travels, the harder it gets - the pipes will come faster and the gap between the pipes will get narrow.
  
@@ -68,17 +68,17 @@ There are three objects on the game:
 
 ### 2. Model Training
 
-NEAT is a model that mutates and envolves given a fitness value - in this case, the greatest the fitness, the better.
+NEAT is a model that mutates and evolves given a fitness value - in this case, the greatest the fitness, the better.
 
-In this model, the birds that traveled the furthest had a bigger fitness value.
+In this model, the birds that travel the furthest have a bigger fitness value.
 
 ---
 
 ## Results
 
-As Flappy Bird is a fairly simple game (you just have to decide either the birds should jump or not), training the model with a population of 100 birds will generate some random species that perform pretty well.
+As Flappy Bird is a fairly simple game (you just have to decide either the bird should jump or not), training the model with a population of 100 birds will generate some random species that perform pretty well, which is not the best to see how the evolution of the model works.
 
-That being said, I choose the population to be 10 birds, so it will be easier to perceive the evolution of the generations
+That being said, the model population is set to be 10 birds, so it's easier to perceive the evolution of the generations.
 
 
 COLOCAR GIF
@@ -86,11 +86,8 @@ COLOCAR GIF
 ---
 
 ## Author
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt="Thiago Marinho"/>
- <br />
- <sub><b>Henrique Weber</b></sub></a>
- <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Henrique-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
-[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:tgmarinho@gmail.com)
+#### Henrique L. Weber
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henrique-weber/)](https://www.linkedin.com/in/henrique-weber/) 
+[![Gmail Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hlweber@uol.com.br)](mailto:hlweber@uol.com.br)

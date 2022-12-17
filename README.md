@@ -27,7 +27,7 @@ This project consists on building an flappy bird like game and training a NEAT m
 
 The whole project was written in python (pygame and neat).
 
-There are two main python files, main_flappy.py - where you can control the bird | main_neat.py - where you can see the evolution of the model generations
+There are two main python files, main_flappy.py - where you can control the bird by pressing space | main_neat.py - where you can see the evolution of the model generations
 
 ---
 

@@ -72,6 +72,10 @@ NEAT is a model that mutates and evolves given a fitness value - in this case, t
 
 In this model, the birds that travel the furthest have a bigger fitness value.
 
+For every bird in each frame the model receives three inputs - the position of the bird in the y-axis, the bird y distance to the next top pipe and the bird y distance to the next bottom pipe.
+
+And the models outputs either the bird should jump or not. In this game, we use a tanh activation function, if the result is over 0.5, it will jump.
+
 ---
 
 ## Results

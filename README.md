@@ -81,7 +81,7 @@ As Flappy Bird is a fairly simple game (you just have to decide either the bird 
 That being said, the model population is set to be 10 birds, so it's easier to perceive the evolution of the generations.
 
 
-COLOCAR GIF
+![](assets/evolution-flappy_bird.gif)
 
 ---
 
